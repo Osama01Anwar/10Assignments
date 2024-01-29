@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah's Country Search</title>
+</head>
+<body>
+    <script>
+        var language = 'English';
+        var population = 45;
+        var isIsland = false;
+
+        if (language === 'English' && population < 50 && !isIsland) {
+            console.log('You should live in Portugal :)');
+        } else {
+            console.log('Portugal does not meet your criteria :(');
+        }
+
+        isIsland = true;
+        population = 70;
+
+        if (language === 'English' && population < 50 && !isIsland) {
+            console.log('You should live in Portugal :)');
+        } else {
+            console.log('Portugal does not meet your criteria :(');
+        }
+    </script>
+</body>
+</html>
